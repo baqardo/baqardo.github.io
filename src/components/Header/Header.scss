@@ -1,0 +1,105 @@
+.header {
+  position: relative;
+  z-index: 0;
+
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 900px;
+
+  padding: 20rem 20%;
+
+  background-image: linear-gradient(to top right, #9d0191, #fd3a69, #fe881a);
+
+  &__content {
+    text-align: center;
+
+    color: white;
+  }
+}
+
+.header__darkening-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -10;
+
+  height: 8rem;
+  width: 100%;
+
+  background-image: linear-gradient(to bottom, rgba(black, 0.4) 0%, transparent 100%);
+}
+
+.header__shapes-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -10;
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  &-item {
+    position: relative;
+    left: -15%;
+
+    height: 95%;
+  }
+}
+
+.header__wave-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  &-item {
+    position: relative;
+    top: 61.5%;
+    left: -10%;
+
+    height: 40%;
+  }
+}
+
+.header__images-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -10;
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+
+  &-laptop {
+    position: relative;
+    left: 30%;
+    top: 8%;
+
+    height: 12rem;
+  }
+  &-phone {
+    position: relative;
+    left: 50%;
+    top: 60%;
+
+    height: 8rem;
+  }
+  &-website {
+    position: relative;
+    left: 40%;
+    top: 8%;
+
+    height: 10rem;
+  }
+}

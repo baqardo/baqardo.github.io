@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 97.51 97.51">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: url(#Gradient_bez_nazwy_149);
+            }
+
+            .cls-2,
+            .cls-3 {
+                fill: #fff;
+            }
+
+            .cls-2 {
+                opacity: 0.5;
+            }
+
+            .cls-12,
+            .cls-13,
+            .cls-4,
+            .cls-5,
+            .cls-7,
+            .cls-9 {
+                fill: none;
+            }
+
+            .cls-4 {
+                stroke: #fff;
+            }
+
+            .cls-12,
+            .cls-4,
+            .cls-5,
+            .cls-7,
+            .cls-8,
+            .cls-9 {
+                stroke-miterlimit: 10;
+            }
+
+            .cls-4,
+            .cls-7 {
+                stroke-width: 0.5px;
+            }
+
+            .cls-12,
+            .cls-5,
+            .cls-7,
+            .cls-8,
+            .cls-9 {
+                stroke: #e0563b;
+            }
+
+            .cls-12,
+            .cls-5 {
+                fill-rule: evenodd;
+            }
+
+            .cls-6 {
+                fill: #e44d26;
+            }
+
+            .cls-8 {
+                fill: #e0563b;
+            }
+
+            .cls-12,
+            .cls-8,
+            .cls-9 {
+                stroke-width: 0.75px;
+            }
+
+            .cls-10 {
+                fill: #f16529;
+            }
+
+            .cls-11 {
+                fill: #ebebeb;
+            }
+
+            .cls-14 {
+                fill: #f47b4d;
+            }
+
+            .cls-15 {
+                fill: #fd9260;
+            }
+
+            .cls-16 {
+                fill: #ffaf87;
+            }
+
+            .cls-17 {
+                fill: #ed673c;
+            }
+
+            #brackets {
+                transform-box: fill-box;
+                transform-origin: center;
+            }
+
+            .shape {
+                transform-box: fill-box;
+                transform-origin: center;
+
+                opacity: 0;
+            }
+
+            .left-top-circle {
+                animation: left-top-transition 4s linear infinite;
+                animation-delay: 3s;
+
+                transform: translate(-30px, -15px);
+
+            }
+
+            .left-bottom-circle {
+                animation: left-bottom-transition 4s linear infinite;
+                animation-delay: 4s;
+
+                transform: translate(-25px, 15px);
+            }
+
+            .right-top-circle {
+                animation: right-top-transition 4s linear infinite;
+                animation-delay: 5s;
+
+                transform: translate(20px, -15px);
+            }
+
+            .right-bottom-circle {
+                animation: right-bottom-transition 4s linear infinite;
+                animation-delay: 6s;
+
+                transform: translate(25px, 15px);
+            }
+
+
+            @keyframes left-top-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(-15px, -7.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(-30px, -15px) rotate(720deg) scale(0);
+                }
+            }
+
+            @keyframes right-top-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(15px, -7.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(20px, -15px) rotate(720deg) scale(0);
+                }
+            }
+
+            @keyframes left-bottom-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(-17.5px, 8.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(-25px, 15px) rotate(720deg) scale(0);
+                }
+            }
+
+            @keyframes right-bottom-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(17.5px, 8.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(25px, 15px) rotate(720deg) scale(0);
+                }
+            }
+        </style>
+        <linearGradient id="Gradient_bez_nazwy_149" x1="16.81" y1="18.63" x2="119.4" y2="114.08"
+            gradientTransform="translate(-0.17 0.17) rotate(-0.2)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#e44d26" />
+            <stop offset="0.36" stop-color="#f96" />
+            <stop offset="0.39" stop-color="#ff9f6f" />
+            <stop offset="0.68" stop-color="#ffd2bc" />
+            <stop offset="0.88" stop-color="#fff3ec" />
+            <stop offset="0.98" stop-color="#fff" />
+        </linearGradient>
+
+        <clipPath id="theClipPath">
+            <!-- Bug Prevention -->
+            <path class="shape cls-15 right-top-circle"
+                d="M66.27,39.15a2.24,2.24,0,1,1,2.23-2.24A2.24,2.24,0,0,1,66.27,39.15Zm0-3.47a1.24,1.24,0,1,0,1.23,1.23A1.24,1.24,0,0,0,66.27,35.68Z" />
+            <path class="shape cls-15 right-top-circle"
+                d="M66.27,39.15a2.24,2.24,0,1,1,2.23-2.24A2.24,2.24,0,0,1,66.27,39.15Zm0-3.47a1.24,1.24,0,1,0,1.23,1.23A1.24,1.24,0,0,0,66.27,35.68Z" />
+
+            <!-- /Bug Prevention -->
+
+            <path class="shape cls-14 left-bottom-circle"
+                d="M26.18,60.16a2.23,2.23,0,1,1,2.23-2.23A2.24,2.24,0,0,1,26.18,60.16Zm0-3.46a1.23,1.23,0,1,0,1.23,1.23A1.24,1.24,0,0,0,26.18,56.7Z" />
+            <path class="shape cls-15 right-top-circle"
+                d="M66.27,39.15a2.24,2.24,0,1,1,2.23-2.24A2.24,2.24,0,0,1,66.27,39.15Zm0-3.47a1.24,1.24,0,1,0,1.23,1.23A1.24,1.24,0,0,0,66.27,35.68Z" />
+            <path class="shape cls-16 right-bottom-circle"
+                d="M60.47,76.2a2.74,2.74,0,1,1,2.74-2.73A2.74,2.74,0,0,1,60.47,76.2Zm0-3.47a.74.74,0,1,0,.74.74A.74.74,0,0,0,60.47,72.73Z" />
+            <path class="shape cls-17 left-top-circle"
+                d="M34.31,32.37A2.74,2.74,0,1,1,37,29.63,2.74,2.74,0,0,1,34.31,32.37Zm0-3.47a.74.74,0,1,0,.73.73A.73.73,0,0,0,34.31,28.9Z" />
+        </clipPath>
+    </defs>
+    <g id="Warstwa_2" data-name="Warstwa 2">
+        <g id="HTML">
+            <circle id="photoObjectBg" class="cls-1" cx="49.19" cy="48.76" r="38.5" />
+            <path class="cls-2"
+                d="M38.78,37.26H59.55a3.11,3.11,0,0,1,3.11,3.11V45a0,0,0,0,1,0,0h-27a0,0,0,0,1,0,0V40.37A3.11,3.11,0,0,1,38.78,37.26Z"
+                transform="translate(-0.14 0.17) rotate(-0.2)" />
+            <path class="cls-3"
+                d="M35.7,42.35h27a0,0,0,0,1,0,0V58.14a3.12,3.12,0,0,1-3.12,3.12H38.82a3.12,3.12,0,0,1-3.12-3.12V42.35a0,0,0,0,1,0,0Z"
+                transform="translate(-0.18 0.17) rotate(-0.2)" />
+            <g id="brackets">
+                <polyline class="cls-4" points="37.88 38.48 39.62 39.53 37.88 40.41" />
+                <polyline class="cls-4" points="35.17 38.49 33.44 39.55 35.18 40.42" />
+                <animateTransform id="brackets-scale" attributeType="XML" attributeName="transform" type="scale"
+                    values="1; 1.5; 1" dur="1s" begin="5s;brackets-scale.end+8s" />
+            </g>
+            <line class="cls-4" x1="36.96" y1="37.85" x2="35.92" y2="41.19" />
+            <polyline class="cls-5" points="68.81 57.38 73.83 57.36 77.26 54.01" />
+            <polyline class="cls-5" points="68.66 55.23 70.69 55.22 72.5 53.45" />
+            <path class="cls-6" d="M69.63,48.67,68.05,67.33l-7.44,2.15-7.72-2.1L51.24,48.73Z" />
+            <circle class="cls-7" cx="77.54" cy="53.62" r="0.7" />
+            <circle class="cls-7" cx="72.86" cy="53.1" r="0.59" />
+            <circle class="cls-8" cx="50.21" cy="65.51" r="1.45" />
+            <circle class="cls-8" cx="44.48" cy="65.53" r="1.45" />
+            <circle class="cls-9" cx="38.51" cy="65.55" r="1.45" />
+            <polygon class="cls-10"
+                points="68.04 50.61 66.68 66.15 60.52 67.86 60.51 65.66 65.21 64.31 65.88 57.31 60.48 57.27 60.48 55.05 66.05 55.06 66.27 52.68 60.47 52.7 60.46 50.64 68.04 50.61" />
+            <polygon class="cls-3" points="66.27 52.68 66.05 55.06 60.48 55.05 60.47 52.7 66.27 52.68" />
+            <polygon class="cls-3"
+                points="65.88 57.31 65.21 64.31 60.51 65.66 60.51 63.23 63.09 62.45 63.17 59.61 60.49 59.62 60.48 57.27 65.88 57.31" />
+            <polygon class="cls-10" points="63.17 59.61 63.09 62.45 60.51 63.23 60.49 59.62 63.17 59.61" />
+            <polygon class="cls-11"
+                points="60.51 63.23 60.51 65.66 55.73 64.11 55.53 60.82 57.73 60.82 57.78 62.51 60.51 63.23" />
+            <polygon class="cls-11"
+                points="60.48 57.27 60.49 59.62 55.3 59.63 54.68 52.72 60.47 52.7 60.48 55.05 57.16 55.05 57.35 57.24 60.48 57.27" />
+            <polygon class="cls-6" points="60.48 55.05 60.48 57.27 57.35 57.24 57.16 55.05 60.48 55.05" />
+            <circle class="cls-8" cx="60.44" cy="45" r="1.45" />
+            <polygon class="cls-12" points="68.06 46.31 66.49 43.65 64.96 46.32 68.06 46.31" />
+            <rect class="cls-9" x="70.67" y="43.59" width="2.75" height="2.75"
+                transform="translate(-0.15 0.25) rotate(-0.2)" />
+        </g>
+        <g id="HTML_MASK" data-name="HTML MASK">
+            <circle id="photoObjectBg-2" data-name="photoObjectBg" class="cls-13" cx="48.76" cy="48.76" r="48.76" />
+
+            <path class="shape cls-14 left-bottom-circle"
+                d="M26.18,60.16a2.23,2.23,0,1,1,2.23-2.23A2.24,2.24,0,0,1,26.18,60.16Zm0-3.46a1.23,1.23,0,1,0,1.23,1.23A1.24,1.24,0,0,0,26.18,56.7Z" />
+            <path class="shape cls-15 right-top-circle"
+                d="M66.27,39.15a2.24,2.24,0,1,1,2.23-2.24A2.24,2.24,0,0,1,66.27,39.15Zm0-3.47a1.24,1.24,0,1,0,1.23,1.23A1.24,1.24,0,0,0,66.27,35.68Z" />
+            <path class="shape cls-16 right-bottom-circle"
+                d="M60.47,76.2a2.74,2.74,0,1,1,2.74-2.73A2.74,2.74,0,0,1,60.47,76.2Zm0-3.47a.74.74,0,1,0,.74.74A.74.74,0,0,0,60.47,72.73Z" />
+            <path class="shape cls-17 left-top-circle"
+                d="M34.31,32.37A2.74,2.74,0,1,1,37,29.63,2.74,2.74,0,0,1,34.31,32.37Zm0-3.47a.74.74,0,1,0,.73.73A.73.73,0,0,0,34.31,28.9Z" />
+
+            <g clip-path="url(#theClipPath)">
+                <circle id="color-mask" fill="#fff" cx="49.19" cy="48.76" r="38.5" />
+            </g>
+        </g>
+    </g>
+</svg>

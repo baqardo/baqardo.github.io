@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96.1 96.1">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: url(#Gradient_bez_nazwy_34);
+            }
+
+            .cls-2,
+            .cls-3 {
+                fill: #fff;
+            }
+
+            .cls-2 {
+                opacity: 0.5;
+            }
+
+            .cls-4,
+            .cls-6 {
+                fill: #764abc;
+            }
+
+            .cls-4,
+            .cls-5 {
+                stroke: #764abc;
+                stroke-miterlimit: 10;
+            }
+
+            .cls-5,
+            .cls-7,
+            .cls-8,
+            .cls-9 {
+                fill: none;
+            }
+
+            .cls-7,
+            .cls-8 {
+                stroke: #f9f9f9;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 0.5px;
+            }
+
+            .cls-7 {
+                fill-rule: evenodd;
+            }
+
+            .cls-10 {
+                fill: #a52492;
+            }
+
+            .cls-11 {
+                fill: #ba1e91;
+            }
+
+            .cls-12 {
+                fill: #e16dbd;
+            }
+
+            .cls-13 {
+                fill: #e8118f;
+            }
+
+            #first-dot,
+            #second-dot,
+            #third-dot {
+                transform-box: fill-box;
+                transform-origin: center;
+            }
+
+            .shape {
+                transform-box: fill-box;
+                transform-origin: center;
+
+                opacity: 0;
+            }
+
+            .left-top-square {
+                animation: left-top-transition 4s linear infinite;
+                animation-delay: 0s;
+
+                transform: translate(-30px, -15px);
+
+            }
+
+            .left-bottom-circle {
+                animation: left-bottom-transition 4s linear infinite;
+                animation-delay: 1s;
+
+                transform: translate(-25px, 15px);
+            }
+
+            .right-bottom-pentagon {
+                animation: right-bottom-transition 4s linear infinite;
+                animation-delay: 2s;
+
+                transform: translate(25px, 15px);
+            }
+
+            .right-top-pentagon {
+                animation: right-top-transition 4s linear infinite;
+                animation-delay: 3s;
+
+                transform: translate(20px, -15px);
+            }
+
+
+            @keyframes left-top-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(-15px, -7.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(-30px, -15px) rotate(720deg) scale(0);
+                }
+            }
+
+            @keyframes right-top-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(15px, -7.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(20px, -15px) rotate(720deg) scale(0);
+                }
+            }
+
+            @keyframes left-bottom-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(-15.5px, 8.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(-20px, 15px) rotate(720deg) scale(0);
+                }
+            }
+
+            @keyframes right-bottom-transition {
+                0% {
+                    opacity: 1;
+                    transform: translate(0px, 0px) rotate(0deg);
+                }
+
+                50% {
+                    transform: translate(17.5px, 8.5px) rotate(360deg) scale(1);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translate(25px, 15px) rotate(720deg) scale(0);
+                }
+            }
+        </style>
+        <linearGradient id="Gradient_bez_nazwy_34" x1="11.98" y1="10.84" x2="98.82" y2="100.43"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#6c3594" />
+            <stop offset="0.24" stop-color="#b42091" />
+            <stop offset="0.43" stop-color="#e9118f" />
+            <stop offset="0.53" stop-color="#e449ab" />
+            <stop offset="0.7" stop-color="#dd9ed6" />
+            <stop offset="0.82" stop-color="#d8d4f1" />
+            <stop offset="0.88" stop-color="#d6e9fb" />
+        </linearGradient>
+
+    </defs>
+    <g id="Warstwa_2" data-name="Warstwa 2">
+        <g id="REDUX">
+            <circle id="photoObjectBg" class="cls-1" cx="48.05" cy="48.05" r="38.5" />
+            <path class="cls-2"
+                d="M37.66,36H58.43a3.11,3.11,0,0,1,3.11,3.11v4.67a0,0,0,0,1,0,0h-27a0,0,0,0,1,0,0V39.16A3.11,3.11,0,0,1,37.66,36Z" />
+            <path class="cls-3"
+                d="M34.55,41.14h27a0,0,0,0,1,0,0V56.93A3.12,3.12,0,0,1,58.43,60H37.66a3.12,3.12,0,0,1-3.12-3.12V41.14A0,0,0,0,1,34.55,41.14Z" />
+            <circle id="first-dot-2" data-name="second-dot" class="cls-4" cx="37.49" cy="63.85" r="1.45">
+                <animate id="dot-hide" attributeType="CSS" attributeName="opacity" values="1; 0; 1" dur="2s"
+                    begin="4s;dot-hide.end+6s" />
+            </circle>
+            <circle id="second-dot" class="cls-4" cx="43.6" cy="63.85" r="1.45">
+                <animate id="dot-hide" attributeType="CSS" attributeName="opacity" values="1; 0; 1" dur="2s"
+                    begin="4.5s;dot-hide.end+6.5s" />
+            </circle>
+            <circle id="third-dot" class="cls-4" cx="49.32" cy="63.85" r="1.45">
+                <animate id="dot-hide" attributeType="CSS" attributeName="opacity" values="1; 0; 1" dur="2s"
+                    begin="5s;dot-hide.end+7s" />
+            </circle>
+            <circle class="cls-5" cx="70.87" cy="43.83" r="1.45" />
+            <circle class="cls-4" cx="59.34" cy="43.83" r="1.45" />
+            <rect class="cls-5" x="64.1" y="42.46" width="2.75" height="2.75" />
+            <path class="cls-5"
+                d="M63.27,51.89a4.51,4.51,0,0,0-2.75-4.19,4.19,4.19,0,0,0-3,.13,4.92,4.92,0,0,0-2.41,2.79c-1.5,3.54.84,7.38,1.2,8" />
+            <path class="cls-5"
+                d="M53.32,55.27a4.54,4.54,0,0,0-2.14,4.54,4.13,4.13,0,0,0,1.69,2.5,4.9,4.9,0,0,0,3.63.6c3.81-.58,5.87-4.57,6.17-5.19" />
+            <path class="cls-5"
+                d="M61.28,62.39c1.71.91,3.68,1,5-.07a4.15,4.15,0,0,0,1.38-2.69,4.9,4.9,0,0,0-1.23-3.47c-2.34-3-6.83-2.92-7.51-2.89" />
+            <circle class="cls-6" cx="56.53" cy="58.74" r="1.27" />
+            <circle class="cls-6" cx="62.59" cy="57.31" r="1.27" />
+            <circle class="cls-6" cx="58.12" cy="53.26" r="1.27" />
+            <polyline class="cls-7" points="37.57 39.33 31.44 39.33 31.44 30.69 40.89 30.69 40.89 36.98" />
+            <line class="cls-8" x1="35.29" y1="32.05" x2="37.49" y2="32.05" />
+            <line class="cls-8" x1="35.29" y1="32.98" x2="39.69" y2="32.98" />
+            <line class="cls-8" x1="35.29" y1="34.51" x2="37.62" y2="34.51" />
+            <line class="cls-8" x1="35.29" y1="35.53" x2="39.72" y2="35.53" />
+            <line class="cls-8" x1="35.29" y1="37.13" x2="37.62" y2="37.13" />
+            <line class="cls-8" x1="35.29" y1="38.02" x2="37.62" y2="38.02" />
+            <circle class="cls-8" cx="33.2" cy="32.51" r="0.63" />
+            <circle class="cls-8" cx="33.2" cy="35.01" r="0.63" />
+            <circle class="cls-8" cx="33.2" cy="37.52" r="0.63" />
+            <line class="cls-8" x1="33.2" y1="33.14" x2="33.2" y2="34.38" />
+            <line class="cls-8" x1="33.2" y1="35.64" x2="33.2" y2="36.89" />
+
+        </g>
+        <g id="REDUX_MASK" data-name="REDUX MASK">
+            <circle id="photoObjectBg-2" data-name="photoObjectBg" class="cls-9" cx="48.05" cy="48.05" r="48.05" />
+
+            <path class="cls-10 shape left-top-square"
+                d="M37.87,26H35a.82.82,0,0,1-.82-.82V22.31a.82.82,0,0,1,.82-.82h2.83a.82.82,0,0,1,.82.82v2.83A.82.82,0,0,1,37.87,26Zm-2-1.64h1.19V23.13H35.86Z" />
+            <path class="cls-11 shape left-bottom-circle"
+                d="M20.8,54.25a2.52,2.52,0,0,1-1.68-.56,1.78,1.78,0,0,1-.58-1.32,2.73,2.73,0,0,1,.54-2.07,1.78,1.78,0,0,1,1.32-.58,2.79,2.79,0,0,1,2.07.54,1.8,1.8,0,0,1,.58,1.33,2.76,2.76,0,0,1-.54,2.06,1.8,1.8,0,0,1-1.33.58Zm-.37-2.88c-.09,0-.11,0-.12,0a1.19,1.19,0,0,0-.13.81.41.41,0,0,1,0,.11c0,.1,0,.12,0,.13a1.19,1.19,0,0,0,.82.12h.11c.09,0,.12,0,.13,0a1.2,1.2,0,0,0,.12-.81v-.11c0-.1,0-.12,0-.13a1.2,1.2,0,0,0-.81-.12h-.12Z" />
+            <path class="cls-12 shape right-bottom-pentagon"
+                d="M60.11,70.86H57.66l-.75-2.33,2-1.44,2,1.44Zm-1.72-1h1l.3-1-.8-.58-.81.58Z" />
+            <path class="cls-13 shape right-top-pentagon"
+                d="M66.71,36.9H64.26l-.76-2.33,2-1.44,2,1.44ZM65,35.9h1l.31-.95-.81-.59-.8.59Z" />
+
+
+        </g>
+    </g>
+</svg>
