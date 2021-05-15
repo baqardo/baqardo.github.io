@@ -1,1 +1,0 @@
-# baqardo.github.io
