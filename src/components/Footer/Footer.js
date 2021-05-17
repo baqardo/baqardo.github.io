@@ -15,7 +15,7 @@ const Footer = props => (
       <img className="footer__wave-mask-item" src={footerWave} alt="" />
     </div>
     <div className="footer__content">
-      <a className="footer__github" href="https://github.com/baqardo" target="_blank">
+      <a className="footer__github" href="https://github.com/baqardo" target="_blank" rel="noreferrer">
         <img className="footer__github-icon" src={githubIcon} alt="GitHub" />
       </a>
     </div>

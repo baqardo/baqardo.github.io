@@ -8,7 +8,7 @@ const Button = props => {
   classes += props.tertiary ? " button--tertiary" : "";
 
   return (
-    <a target={props.target} href={props.href} className={classes}>
+    <a className={classes} target={props.target} href={props.href} rel="noreferrer">
       {props.children}
     </a>
   );

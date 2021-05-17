@@ -5,6 +5,7 @@
 
   &__content {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 
     margin-bottom: 16rem;
@@ -13,7 +14,7 @@
   &__item {
     margin-top: 2rem;
 
-    width: max(300px, 32%);
+    width: max(300px, 30%);
 
     color: black;
     box-shadow: 0 4px 24px rgba(black, 0.2);
