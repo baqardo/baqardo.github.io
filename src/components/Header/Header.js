@@ -33,13 +33,13 @@ const Header = props => {
       </div>
     </header>
   ) : (
-    <header className="header">
+    <header className="header header--second">
       <div className="header__darkening-mask"></div>
       <div className="header__shapes-mask">
         <img className="header__shapes-mask-item" src={shapeImage} alt="" />
       </div>
       <div className="header__wave-mask">
-        <img className="header__wave-mask-item" src={projectWaveImage} alt="" />
+        <img className="header__wave-mask-item header__wave-mask-item--second" src={projectWaveImage} alt="" />
       </div>
 
       <div className="header__content">

@@ -13,6 +13,10 @@
 html {
   font-size: 16px;
 
+  @media screen and (min-width: 1601px) {
+    font-size: clamp(16px, 1.1vw, 24px);
+  }
+
   @media screen and (min-width: 1281px) and (max-width: 1600px) {
     font-size: clamp(12px, 1vw, 16px);
   }

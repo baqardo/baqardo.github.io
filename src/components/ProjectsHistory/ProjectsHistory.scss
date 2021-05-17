@@ -1,27 +1,41 @@
 .projects-history {
+  position: relative;
+  z-index: 10;
+
   width: 90%;
 
   margin: 0 auto;
 
+  @media screen and(max-width: 960px) {
+    width: 95%;
+  }
+
   &__content {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 
     margin-bottom: 16rem;
   }
 
   &__item {
-    margin-top: 2rem;
+    margin-top: 4rem;
 
     width: max(300px, 30%);
 
+    background-color: white;
     color: black;
     box-shadow: 0 4px 24px rgba(black, 0.2);
     border-radius: 1rem;
 
-    &:not(&:nth-last-child(1)) {
-      margin-right: 2%;
+    @media screen and(max-width: 1280px) {
+      width: 29%;
+    }
+    @media screen and(max-width: 960px) {
+      width: 46%;
+    }
+    @media screen and(max-width: 640px) {
+      width: 90%;
     }
   }
 
