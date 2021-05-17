@@ -5,6 +5,21 @@
   padding: 0 20%;
   padding-top: 8rem;
 
+  @media screen and (max-width: 1280px) {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  @media screen and (max-width: 960px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  @media screen and (max-width: 960px) {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
   &__title {
     position: relative;
 
@@ -39,6 +54,10 @@
     border-radius: 1rem;
 
     box-shadow: 0px 4px 80px rgba(black, 0.2);
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column-reverse;
+    }
   }
 
   &__info {
@@ -51,6 +70,12 @@
     border-radius: 1rem 0 0 1rem;
 
     background-color: white;
+
+    @media screen and (max-width: 640px) {
+      width: 100%;
+
+      border-radius: 0 0 1rem 1rem;
+    }
   }
 
   &__date {
@@ -90,11 +115,22 @@
       width: 55%;
 
       border-radius: 0 1rem 1rem 0;
+
+      @media screen and (max-width: 640px) {
+        width: 100%;
+
+        border-radius: 1rem 1rem 0 0;
+      }
     }
   }
 
   &__button {
     margin-top: auto;
     margin-bottom: 1rem;
+
+    @media screen and (max-width: 640px) {
+      margin-top: 2rem;
+      margin-bottom: 0;
+    }
   }
 }

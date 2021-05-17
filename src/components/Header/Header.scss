@@ -8,14 +8,35 @@
   width: 100%;
   height: 900px;
 
-  padding: 20rem 20%;
+  padding: 300px 20%;
 
   background-image: linear-gradient(to top right, #9d0191, #fd3a69, #fe881a);
+
+  @media screen and (min-width: 1921px) {
+    padding: 275px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    height: 700px;
+  }
+
+  @media screen and (max-width: 960px) {
+    padding: 220px 5%;
+    height: 600px;
+  }
+
+  @media screen and (max-width: 640px) {
+    padding: 0;
+    padding-top: 100px;
+    height: 400px;
+  }
 
   &__content {
     text-align: center;
 
     color: white;
+
+    line-height: 3em;
   }
 }
 
@@ -63,10 +84,43 @@
 
   &-item {
     position: relative;
-    top: 61.5%;
-    left: -10%;
+    top: 64%;
+    left: -5%;
 
-    height: 40%;
+    width: 1700px;
+
+    @media screen and (min-width: 1601px) {
+      top: 54%;
+      width: 2200px;
+    }
+
+    @media screen and (min-width: 1921px) {
+      top: 47%;
+      left: -5%;
+
+      width: 2500px;
+    }
+
+    @media screen and (max-width: 1280px) {
+      left: -10%;
+      top: 63%;
+
+      width: 1380px;
+    }
+
+    @media screen and (max-width: 960px) {
+      top: 63%;
+      left: -25%;
+
+      width: 1160px;
+    }
+
+    @media screen and (max-width: 640px) {
+      top: 60%;
+      left: calc(-20% - 10vh);
+
+      width: 840px;
+    }
   }
 }
 
@@ -87,13 +141,42 @@
     top: 8%;
 
     height: 12rem;
+
+    @media screen and (max-width: 1280px) {
+      height: 16rem;
+      left: 15%;
+    }
+
+    @media screen and (max-width: 960px) {
+      height: 14rem;
+    }
+
+    @media screen and (max-width: 640px) {
+      display: none;
+    }
   }
   &-phone {
     position: relative;
-    left: 50%;
+    left: 55%;
     top: 60%;
 
     height: 8rem;
+
+    @media screen and (min-width: 1601px) {
+      left: 60%;
+    }
+
+    @media screen and (max-width: 1280px) {
+      height: 12rem;
+    }
+
+    @media screen and (max-width: 960px) {
+      height: 10rem;
+    }
+
+    @media screen and (max-width: 640px) {
+      display: none;
+    }
   }
   &-website {
     position: relative;
@@ -101,5 +184,18 @@
     top: 8%;
 
     height: 10rem;
+
+    @media screen and (max-width: 1280px) {
+      height: 14rem;
+    }
+
+    @media screen and (max-width: 960px) {
+      height: 12rem;
+      left: 30%;
+    }
+
+    @media screen and (max-width: 640px) {
+      display: none;
+    }
   }
 }

@@ -2,6 +2,16 @@
   padding: 0 20%;
   padding-top: 8rem;
 
+  @media screen and (max-width: 1280px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  @media screen and (max-width: 640px) {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
   &__title {
     position: relative;
 
@@ -34,6 +44,10 @@
     margin-top: 2rem;
 
     width: max(250px, 30%);
+
+    @media screen and (max-width: 640px) {
+      width: clamp(150px, 35vw, 250px);
+    }
   }
 
   &__icon {

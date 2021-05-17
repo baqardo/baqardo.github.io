@@ -13,6 +13,14 @@
   height: 6rem;
 
   background-color: transparent;
+
+  @media screen and (max-width: 1280px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  @media screen and (max-width: 960px) {
+    padding-right: 0%;
+  }
 }
 
 .navigation__logo {
@@ -29,6 +37,10 @@
   &-item {
     & + & {
       margin-left: 2rem;
+
+      @media screen and (max-width: 960px) {
+        margin-left: 0;
+      }
     }
   }
 }
@@ -44,6 +56,10 @@
   transition: all 0.3s;
   &:hover {
     opacity: 1;
+  }
+
+  @media screen and (max-width: 960px) {
+    padding: 2rem 2rem;
   }
 
   &--active {
