@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+
+  padding: 1rem 2.5rem;
+
+  box-shadow: 0px 4px 12px rgba(black, 0.2);
+  background-image: linear-gradient(to left, #9d0191, #fd3a69);
+  border-radius: 2rem;
+
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0px 8px 18px rgba(black, 0.2);
+  }
+
+  &--secondary {
+    background-image: linear-gradient(to right, #2cd6b7, #9edd99);
+  }
+
+  &--tertiary {
+    background-image: linear-gradient(to left, #b95be4, #8389e4);
+  }
+}

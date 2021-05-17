@@ -13,12 +13,12 @@ class Navigation extends Component {
 
         <ul className="navigation__list">
           <li className="navigation__list-item">
-            <a className="navigation__link navigation__link--active" href="#">
+            <a className="navigation__link navigation__link--active" href="#home">
               Home
             </a>
           </li>
           <li className="navigation__list-item">
-            <a className="navigation__link" href="#">
+            <a className="navigation__link" href="#home">
               Projects
             </a>
           </li>

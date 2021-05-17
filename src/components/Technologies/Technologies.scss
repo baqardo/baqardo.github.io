@@ -1,0 +1,46 @@
+.technologies {
+  padding: 0 20%;
+  padding-top: 8rem;
+
+  &__title {
+    position: relative;
+
+    text-align: center;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+
+      width: 4rem;
+      height: 0.25rem;
+
+      background-color: #fd3a69;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding-top: 4rem;
+  }
+
+  &__item {
+    margin-top: 2rem;
+
+    width: max(250px, 30%);
+  }
+
+  &__icon {
+    width: 100%;
+  }
+
+  &__name {
+    text-align: center;
+  }
+}
