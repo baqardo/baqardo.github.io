@@ -21,22 +21,22 @@ const Projects = props => {
         <div className="projects__item">
           <div className="projects__info">
             <div className="projects__name">
-              <Heading small>Soslina</Heading>
+              <Heading small>Mi Business</Heading>
             </div>
             <div className="projects__date">
-              <Paragraph small>07.2020</Paragraph>
+              <Paragraph small>10.2020</Paragraph>
             </div>
             <div className="projects__technologies">
-              <Paragraph small>JavaScript, SCSS, GSAP, RWD</Paragraph>
+              <Paragraph small>JavaScript, SCSS, RWD</Paragraph>
             </div>
             <div className="projects__button">
-              <Button href="http://soslina.pl" target="_blank" secondary>
+              <Button href="https://baqardo.github.io/MI-Business/" target="_blank" tertiary>
                 View Project
               </Button>
             </div>
           </div>
           <div className="projects__image-wrapper">
-            <img className="projects__image" src={soslinaImage} alt="Soslina" />
+            <img className="projects__image" src={miBusinessImage} alt="Mi Business" />
           </div>
         </div>
 
@@ -65,22 +65,22 @@ const Projects = props => {
         <div className="projects__item">
           <div className="projects__info">
             <div className="projects__name">
-              <Heading small>Mi Business</Heading>
+              <Heading small>Soslina</Heading>
             </div>
             <div className="projects__date">
-              <Paragraph small>10.2020</Paragraph>
+              <Paragraph small>07.2020</Paragraph>
             </div>
             <div className="projects__technologies">
-              <Paragraph small>JavaScript, SCSS, RWD</Paragraph>
+              <Paragraph small>JavaScript, SCSS, GSAP, RWD</Paragraph>
             </div>
             <div className="projects__button">
-              <Button href="https://baqardo.github.io/MI-Business/" target="_blank" tertiary>
+              <Button href="http://soslina.pl" target="_blank" secondary>
                 View Project
               </Button>
             </div>
           </div>
           <div className="projects__image-wrapper">
-            <img className="projects__image" src={miBusinessImage} alt="Mi Business" />
+            <img className="projects__image" src={soslinaImage} alt="Soslina" />
           </div>
         </div>
       </div>

@@ -13,12 +13,18 @@ class Navigation extends Component {
 
         <ul className="navigation__list">
           <li className="navigation__list-item">
-            <a className="navigation__link navigation__link--active" href="#home">
+            <a
+              className={`navigation__link ${this.props.home ? "navigation__link--active" : ""}`}
+              href="#home"
+              onClick={() => this.props.handleClick("home")}>
               Home
             </a>
           </li>
           <li className="navigation__list-item">
-            <a className="navigation__link" href="#home">
+            <a
+              className={`navigation__link ${!this.props.home ? "navigation__link--active" : ""}`}
+              href="#projects"
+              onClick={() => this.props.handleClick("projects")}>
               Projects
             </a>
           </li>
