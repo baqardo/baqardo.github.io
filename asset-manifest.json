@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b62a244.chunk.css",
-    "main.js": "/static/js/main.1011012f.chunk.js",
-    "main.js.map": "/static/js/main.1011012f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e351b966.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e351b966.js.map",
+    "main.css": "/static/css/main.a663de3b.chunk.css",
+    "main.js": "/static/js/main.70ebe662.chunk.js",
+    "main.js.map": "/static/js/main.70ebe662.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.11112de5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.11112de5.js.map",
     "static/js/2.4d0112a4.chunk.js": "/static/js/2.4d0112a4.chunk.js",
     "static/js/2.4d0112a4.chunk.js.map": "/static/js/2.4d0112a4.chunk.js.map",
-    "static/js/3.6bf17394.chunk.js": "/static/js/3.6bf17394.chunk.js",
-    "static/js/3.6bf17394.chunk.js.map": "/static/js/3.6bf17394.chunk.js.map",
+    "static/js/3.91b61dc6.chunk.js": "/static/js/3.91b61dc6.chunk.js",
+    "static/js/3.91b61dc6.chunk.js.map": "/static/js/3.91b61dc6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4b62a244.chunk.css.map": "/static/css/main.4b62a244.chunk.css.map",
+    "static/css/main.a663de3b.chunk.css.map": "/static/css/main.a663de3b.chunk.css.map",
     "static/js/2.4d0112a4.chunk.js.LICENSE.txt": "/static/js/2.4d0112a4.chunk.js.LICENSE.txt",
     "static/media/GITHUB_MASK.c19470cc.svg": "/static/media/GITHUB_MASK.c19470cc.svg",
     "static/media/GITHUB_MASK_Mozilla.5f6ef430.svg": "/static/media/GITHUB_MASK_Mozilla.5f6ef430.svg",
@@ -35,15 +35,18 @@
     "static/media/laptop.7bc27405.png": "/static/media/laptop.7bc27405.png",
     "static/media/marshmello.ae1f596a.png": "/static/media/marshmello.ae1f596a.png",
     "static/media/mi_business.4c7758b4.png": "/static/media/mi_business.4c7758b4.png",
+    "static/media/pacman.9157115e.png": "/static/media/pacman.9157115e.png",
+    "static/media/pejpersoker.e45c7517.png": "/static/media/pejpersoker.e45c7517.png",
     "static/media/phone.2a8f87a1.png": "/static/media/phone.2a8f87a1.png",
+    "static/media/smartphone.71f00932.png": "/static/media/smartphone.71f00932.png",
     "static/media/soslina.d712bdb2.png": "/static/media/soslina.d712bdb2.png",
     "static/media/tripmate.90270587.png": "/static/media/tripmate.90270587.png",
     "static/media/website.8a17579a.png": "/static/media/website.8a17579a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e351b966.js",
+    "static/js/runtime-main.11112de5.js",
     "static/js/2.4d0112a4.chunk.js",
-    "static/css/main.4b62a244.chunk.css",
-    "static/js/main.1011012f.chunk.js"
+    "static/css/main.a663de3b.chunk.css",
+    "static/js/main.70ebe662.chunk.js"
   ]
 }
