@@ -9,152 +9,108 @@ import TripmateImage from "../../assets/img/tripmate.png";
 import AgencyImage from "../../assets/img/agency.png";
 import SoslinaImage from "../../assets/img/soslina.png";
 import MiBusinessImage from "../../assets/img/mi_business.png";
-import Paragraph from "../Typography/Paragraph/Paragraph";
-import Heading from "../Typography/Heading/Heading";
+import SmartphoneImage from "../../assets/img/smartphone.png";
+import PejpersokerImage from "../../assets/img/pejpersoker.png";
+import PacmanImage from "../../assets/img/pacman.png";
 
-const ProjectsHistory = props => (
-  <section className="projects-history">
-    <div className="projects-history__content">
-      <a
-        className="projects-history__item"
-        target="_blank"
-        href="https://baqardo.github.io/Training-Responsive-Apexa-Header/"
-        rel="noreferrer">
-        <div className="projects-history__image-wrapper">
-          <img className="projects-history__image" src={ApexaImage} alt="Apexa Header" />
-        </div>
-        <div className="projects-history__info">
-          <div className="projects-history__name">
-            <Heading tiny>Apexa Header</Heading>
-          </div>
-          <div className="projects-history__date">
-            <Paragraph small>05.2021</Paragraph>
-          </div>
-          <div className="projects-history__technologies">
-            <Paragraph small>React, SCSS, RWD</Paragraph>
-          </div>
-        </div>
-      </a>
+import ProjectCard from "../ProjectCard/ProjectCard";
 
-      <a
-        className="projects-history__item"
-        target="_blank"
-        href="https://baqardo.github.io/Training-Responsive-Travelmates-Header/"
-        rel="noreferrer">
-        <div className="projects-history__image-wrapper">
-          <img className="projects-history__image" src={TripmateImage} alt="TripMate Header" />
-        </div>
-        <div className="projects-history__info">
-          <div className="projects-history__name">
-            <Heading tiny>TripMate Header</Heading>
-          </div>
-          <div className="projects-history__date">
-            <Paragraph small>04.2021</Paragraph>
-          </div>
-          <div className="projects-history__technologies">
-            <Paragraph small>React, SCSS, RWD</Paragraph>
-          </div>
-        </div>
-      </a>
+const ProjectsHistory = props => {
+  const projects = [
+    {
+      name: "Apexa Header",
+      date: "05.2021",
+      stack: "React, SCSS, RWD",
+      url: "https://baqardo.github.io/Training-Responsive-Apexa-Header/",
+      image: ApexaImage,
+      members: 1,
+    },
+    {
+      name: "TripMate Header",
+      date: "04.2021",
+      stack: "React, SCSS, RWD",
+      url: "https://baqardo.github.io/Training-Responsive-Travelmates-Header/",
+      image: TripmateImage,
+      members: 1,
+    },
+    {
+      name: "Fly Away Header",
+      date: "04.2021",
+      stack: "React, SCSS, RWD",
+      url: "https://baqardo.github.io/Training-Responsive-Vietnam-Header/",
+      image: FlyawayImage,
+      members: 1,
+    },
+    {
+      name: "Marshmello Header",
+      date: "03.2021",
+      stack: "React, SCSS, RWD",
+      url: "https://baqardo.github.io/Training---Responsive-Marshmello-Header/",
+      image: MarshmelloImage,
+      members: 1,
+    },
 
-      <a
-        className="projects-history__item"
-        target="_blank"
-        href="https://baqardo.github.io/Training-Responsive-Vietnam-Header/"
-        rel="noreferrer">
-        <div className="projects-history__image-wrapper">
-          <img className="projects-history__image" src={FlyawayImage} alt="Fly Away Header" />
-        </div>
-        <div className="projects-history__info">
-          <div className="projects-history__name">
-            <Heading tiny>Fly Away Header</Heading>
-          </div>
-          <div className="projects-history__date">
-            <Paragraph small>04.2021</Paragraph>
-          </div>
-          <div className="projects-history__technologies">
-            <Paragraph small>React, SCSS, RWD</Paragraph>
-          </div>
-        </div>
-      </a>
+    {
+      name: "Mi Business",
+      date: "10.2020",
+      stack: "JavaScript, SCSS, RWD",
+      url: "https://baqardo.github.io/MI-Business/",
+      image: MiBusinessImage,
+      members: 1,
+    },
+    {
+      name: "Agency",
+      date: "08.2020",
+      stack: "React, SCSS, GSAP, RWD",
+      url: "https://baqardo.github.io/Agency/",
+      image: AgencyImage,
+      members: 1,
+    },
+    {
+      name: "Soslina",
+      date: "03.2020",
+      stack: "JavaScript, SCSS, GSAP, RWD",
+      url: "http://soslina.pl",
+      image: SoslinaImage,
+      members: 2,
+    },
+    {
+      name: "Smartphone",
+      date: "09.2019",
+      stack: "JavaScript, CSS, HTML, JQuery",
+      url: "https://baqardo.github.io/Smartphone/",
+      image: SmartphoneImage,
+      members: 2,
+    },
+    {
+      name: "PejperSoker",
+      date: "06.2019",
+      stack: "JavaScript, CSS, PHP, SQL",
+      url: "https://baqardo.github.io/PejperSoker/",
+      image: PejpersokerImage,
+      members: 3,
+    },
+    {
+      name: "Pac-Man",
+      date: "06.2018",
+      stack: "JavaScript, CSS, HTML, P5",
+      url: "https://baqardo.github.io/pacman/",
+      image: PacmanImage,
+      members: 3,
+    },
+  ];
 
-      <a
-        className="projects-history__item"
-        target="_blank"
-        href="https://baqardo.github.io/Training---Responsive-Marshmello-Header/"
-        rel="noreferrer">
-        <div className="projects-history__image-wrapper">
-          <img className="projects-history__image" src={MarshmelloImage} alt="Marshmello Header" />
-        </div>
-        <div className="projects-history__info">
-          <div className="projects-history__name">
-            <Heading tiny>Marshmello Header</Heading>
-          </div>
-          <div className="projects-history__date">
-            <Paragraph small>03.2021</Paragraph>
-          </div>
-          <div className="projects-history__technologies">
-            <Paragraph small>React, SCSS, RWD</Paragraph>
-          </div>
-        </div>
-      </a>
-
-      <a
-        className="projects-history__item"
-        target="_blank"
-        href="https://baqardo.github.io/MI-Business/"
-        rel="noreferrer">
-        <div className="projects-history__image-wrapper">
-          <img className="projects-history__image" src={MiBusinessImage} alt="Mi Business" />
-        </div>
-        <div className="projects-history__info">
-          <div className="projects-history__name">
-            <Heading tiny>Mi Business</Heading>
-          </div>
-          <div className="projects-history__date">
-            <Paragraph small>10.2020</Paragraph>
-          </div>
-          <div className="projects-history__technologies">
-            <Paragraph small>JavaScript, SCSS, RWD</Paragraph>
-          </div>
-        </div>
-      </a>
-
-      <a className="projects-history__item" target="_blank" href="https://baqardo.github.io/Agency/" rel="noreferrer">
-        <div className="projects-history__image-wrapper">
-          <img className="projects-history__image" src={AgencyImage} alt="Agency" />
-        </div>
-        <div className="projects-history__info">
-          <div className="projects-history__name">
-            <Heading tiny>Agency</Heading>
-          </div>
-          <div className="projects-history__date">
-            <Paragraph small>08.2020</Paragraph>
-          </div>
-          <div className="projects-history__technologies">
-            <Paragraph small>React, SCSS, GSAP, RWD</Paragraph>
-          </div>
-        </div>
-      </a>
-
-      <a className="projects-history__item" target="_blank" href="http://soslina.pl" rel="noreferrer">
-        <div className="projects-history__image-wrapper">
-          <img className="projects-history__image" src={SoslinaImage} alt="Soślina" />
-        </div>
-        <div className="projects-history__info">
-          <div className="projects-history__name">
-            <Heading tiny>Soslina</Heading>
-          </div>
-          <div className="projects-history__date">
-            <Paragraph small>03.2021</Paragraph>
-          </div>
-          <div className="projects-history__technologies">
-            <Paragraph small>JavaScript, SCSS, GSAP, RWD</Paragraph>
-          </div>
-        </div>
-      </a>
-    </div>
-  </section>
-);
+  return (
+    <section className="projects-history">
+      <div className="projects-history__content">
+        {projects.map(({ name, date, stack, url, image, members }) => {
+          return (
+            <ProjectCard name={name} date={date} stack={stack} url={url} image={image} members={members} key={name} />
+          );
+        })}
+      </div>
+    </section>
+  );
+};
 
 export default ProjectsHistory;

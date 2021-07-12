@@ -1,0 +1,78 @@
+.project-card {
+  margin-top: 4rem;
+
+  width: max(300px, 30%);
+
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 24px rgba(black, 0.2);
+  border-radius: 1rem;
+
+  @media screen and(max-width: 1280px) {
+    width: 29%;
+  }
+  @media screen and(max-width: 960px) {
+    width: 46%;
+  }
+  @media screen and(max-width: 640px) {
+    width: 90%;
+  }
+
+  &:hover &__image {
+    transform: scale(1.25);
+  }
+
+  &__info {
+    padding: 2.5rem 2rem;
+
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  &__name {
+    margin-bottom: 0.5rem;
+  }
+
+  &__date {
+    opacity: 0.6;
+
+    margin-bottom: 0.25rem;
+    margin-left: auto;
+  }
+
+  &__technologies {
+    overflow: 0.8;
+  }
+
+  &__image {
+    width: 90%;
+
+    transition: all 0.3s;
+
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      overflow: hidden;
+
+      width: 100%;
+      padding: 2rem 0;
+
+      background-color: #d1cece;
+      border-radius: 1rem 1rem 0 0;
+    }
+  }
+
+  &__numbers {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 0.5rem;
+  }
+
+  &__members {
+    display: flex;
+    align-items: center;
+  }
+}
