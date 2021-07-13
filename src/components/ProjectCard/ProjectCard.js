@@ -16,6 +16,9 @@ const ProjectCard = props => (
       <div className="project-card__name">
         <Heading tiny>{props.name}</Heading>
       </div>
+      <div className="project-card__technologies">
+        <Paragraph small>{props.stack}</Paragraph>
+      </div>
       <div className="project-card__numbers">
         <div className="project-card__members">
           <img className="project-card__members-icon" src={userIcon} alt="" />
@@ -24,10 +27,6 @@ const ProjectCard = props => (
         <div className="project-card__date">
           <Paragraph small>{props.date}</Paragraph>
         </div>
-      </div>
-
-      <div className="project-card__technologies">
-        <Paragraph small>{props.stack}</Paragraph>
       </div>
     </div>
   </a>
