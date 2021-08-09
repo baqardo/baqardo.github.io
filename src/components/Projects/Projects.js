@@ -1,14 +1,14 @@
-import React from "react";
-import Heading from "../Typography/Heading/Heading";
+import React from 'react';
+import Heading from '../Typography/Heading/Heading';
 
-import "./Projects.scss";
+import './Projects.scss';
 
-import soslinaImage from "../../assets/img/soslina.png";
-import agencyImage from "../../assets/img/agency.png";
-import miBusinessImage from "../../assets/img/mi_business.png";
+import soslinaImage from '../../assets/img/soslina.png';
+import agencyImage from '../../assets/img/agency.png';
+import miBusinessImage from '../../assets/img/mi_business.png';
 
-import Paragraph from "../Typography/Paragraph/Paragraph";
-import Button from "../Button/Button";
+import Paragraph from '../Typography/Paragraph/Paragraph';
+import Button from '../Button/Button';
 
 const Projects = props => {
   return (
@@ -82,6 +82,11 @@ const Projects = props => {
           <div className="projects__image-wrapper">
             <img className="projects__image" src={soslinaImage} alt="Soslina" />
           </div>
+        </div>
+        <div className="projects__main-button">
+          <Button href="#projects" onClick={() => props.handleClick('projects')} tertiary big>
+            View More
+          </Button>
         </div>
       </div>
     </section>

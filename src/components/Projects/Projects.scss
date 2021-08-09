@@ -26,7 +26,7 @@
     text-align: center;
 
     &::after {
-      content: "";
+      content: '';
 
       position: absolute;
       bottom: 0;
@@ -41,7 +41,18 @@
   }
 
   &__content {
-    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 4rem;
+
+    @media screen and (min-width: 641px) and (max-width: 960px) {
+      padding-bottom: 6rem;
+    }
+
+    @media screen and (max-width: 640px) {
+      padding-bottom: 12rem;
+    }
   }
 
   &__item {
@@ -132,5 +143,11 @@
       margin-top: 2rem;
       margin-bottom: 0;
     }
+  }
+
+  &__main-button {
+    align-self: center;
+
+    margin-top: 4rem;
   }
 }
